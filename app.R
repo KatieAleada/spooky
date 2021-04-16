@@ -13,6 +13,7 @@ spooky <- read_csv("spooky_data.csv")
 
 # Create the user interface:
 ui <- fluidPage(
+  theme = shinytheme ("slate"),
   titlePanel("I am adding a title!"),
   sidebarLayout(
     sidebarPanel("put my widgets here",
